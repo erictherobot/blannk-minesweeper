@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "user.local.139e727b6315",
+  "name": "Minesweeper",
+  "version": "0.1.0",
+  "visibility": "public",
+  "runtime": {
+    "kind": "qml",
+    "entry": "shell.qml",
+    "appId": "user.local.139e727b6315",
+    "context": "none",
+    "ipc": {
+      "target": "block",
+      "open": "openPanel",
+      "state": "state",
+      "hide": "hide"
+    }
+  },
+  "surfaces": [
+    "island",
+    "launcher",
+    "standalone"
+  ],
+  "capabilities": [
+    "own-data"
+  ],
+  "dependencies": [
+    "quickshell"
+  ],
+  "defaults": {
+    "enabled": false,
+    "placements": []
+  },
+  "helpers": []
+}
