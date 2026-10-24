@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "id": "user.local.139e727b6315",
+  "name": "Minesweeper",
+  "version": "0.1.0",
+  "visibility": "public",
+  "runtime": {
+    "kind": "qml",
+    "entry": "shell.qml",
+    "appId": "user.local.139e727b6315",
+    "context": "none",
+    "ipc": {
+      "target": "block",
+      "open": "openPanel",
+      "state": "state",
+      "hide": "hide"
+    }
+  },
+  "surfaces": [
+    "island",
+    "launcher",
+    "standalone"
+  ],
+  "capabilities": [
+    "own-data"
+  ],
+  "dependencies": [
+    "quickshell"
+  ],
+  "defaults": {
+    "enabled": false,
+    "placements": []
+  },
+  "helpers": [],
+  "tags": [
+    "puzzle",
+    "retro",
+    "simple"
+  ],
+  "presentation": {
+    "icon": "code",
+    "screenshot": {
+      "path": "assets/block-screenshot-46379511c629895625981c5d704739b0ea4fb978d14e1224caea9a72c7599299.png",
+      "alt": "The game"
+    }
+  }
+}

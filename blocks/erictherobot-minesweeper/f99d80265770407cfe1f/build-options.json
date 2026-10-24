@@ -1,0 +1,9 @@
+{
+  "interface": "GUI",
+  "surfaces": [
+    "island",
+    "launcher",
+    "standalone"
+  ],
+  "visibility": "public"
+}

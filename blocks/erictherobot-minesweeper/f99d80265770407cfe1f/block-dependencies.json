@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    "block.json",
+    "shell.qml",
+    "preview.json",
+    "block-dependencies.json",
+    "build-options.json",
+    "assets/block-screenshot-46379511c629895625981c5d704739b0ea4fb978d14e1224caea9a72c7599299.png",
+    "LICENSE"
+  ],
+  "qmlModules": [
+    {
+      "uri": "Blannk.Design",
+      "version": "1.0",
+      "provider": "host"
+    }
+  ],
+  "qmlImportPaths": [],
+  "pythonPaths": [],
+  "libraryPaths": [],
+  "bundled": [],
+  "dynamicAssets": []
+}
